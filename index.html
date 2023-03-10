@@ -383,7 +383,6 @@
 		id="contact" style="margin-bottom:-100px;">
 
 		<script>
-
 			document.getElementById("contact").innerHTML += `
 				<div class="container" >
 							<div class="row d-flex justify-content-center">
@@ -392,7 +391,7 @@
 										<h1 class="mb-10" style="margin-top:-40px;">📩
 										Contact</h1>
 										<p>Drop me a message</p>
-										<form class="d-flex flex-column" action="submit-form.php" method="post">
+										<form id="contact-form" class="d-flex flex-column" method="post">
 											<label for="name">Name:</label>
 											<input type="text" id="name" name="name" required>
 											<br>
